@@ -11411,7 +11411,6 @@ footer.footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .form {
@@ -11426,19 +11425,43 @@ footer.footer {
 .form > h1 {
   font-size: 50px;
   margin-bottom: 50px;
+  text-align: center;
+}
+
+.inputContainer {
+  display: block;
+  margin: 0 auto;
+  padding: 1% 0;
+  justify-content: center;
+  width: 90%;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.inputContainer > input {
+  border-radius: 3px;
+  width: 100%;
+  height: 3em;
+}
+
+.buttons {
+  position: relative;
+  top: 7%;
+  margin-bottom: 10px;
 }
 
 .submitBtn {
   display: block;
-  margin-left: auto;
-  padding: 15px 30px;
+  margin: auto;
+  padding: 15px 15px;
+  width: 90%;
   border: none;
   background-color: purple;
   color: white;
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .submitBtn:hover {
