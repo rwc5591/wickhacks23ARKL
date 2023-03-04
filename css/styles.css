@@ -11380,7 +11380,7 @@ footer.footer {
   padding-bottom: 4rem;
 }
 
-/*Sign up background*/
+/*Sign Up Page background*/
 
 .animated-bg {
   width: 100%;
@@ -11403,4 +11403,38 @@ footer.footer {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
+}
+
+/*Sign up Box Styling*/
+
+.signup-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: white;
+  width: 50vw;
+  height: 30em;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.form > h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+
+.label {
+  font-weight: 400;
 }
