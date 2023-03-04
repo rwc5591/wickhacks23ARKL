@@ -143,16 +143,17 @@ h4, .h4 {
     font-size: 1.5rem;
   }
 }
+/* added by Reg */
 .menu{
-  width: 600px;
-  float: left;
+  /* width: 600px; */
+  float: right;
   height: 70px;
 }
 ul{
-  float: left;
+  /* float: right; */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 
 }
 ul li{
@@ -174,6 +175,19 @@ ul li a:hover{
   color: rgb(213, 213, 91);
 }
 
+.flexbox{
+  display: flex;
+  padding: 10px; 
+  justify-content: space-around;
+}
+.col-4p{
+  
+  flex-basis: 25%;
+  padding: 40px;
+  
+
+}
+/* End of styles added by Reg */
 h5, .h5 {
   font-size: 1.25rem;
 }
