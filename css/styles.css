@@ -11565,6 +11565,20 @@ footer.footer {
   margin-top: 10px;
 }
 
+.findBtn {
+  display: block;
+  margin: auto;
+  padding: 15px 15px;
+  width: 10%;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
 .ContinueBtn {
   display: block;
   margin: auto;
@@ -11670,7 +11684,7 @@ footer.footer {
 }
 
 .next-button {
-  left: 20;
+  align-content: right;
 }
 
 /*Profile Matches*/
