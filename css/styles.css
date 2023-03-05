@@ -146,11 +146,11 @@ h4, .h4 {
 /* added by Reg */
 .menu{
   /* width: 600px; */
-  float: right;
+  float: left;
   height: 70px;
 }
 ul{
-  /* float: right; */
+  float: right;
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
@@ -186,6 +186,11 @@ ul li a:hover{
   padding: 40px;
   
 
+}
+.conc{
+  color: #0c4128;
+  background-color: #ad5dbc;
+  padding: 6px;
 }
 /* End of styles added by Reg */
 h5, .h5 {
