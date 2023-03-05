@@ -11630,3 +11630,45 @@ footer.footer {
 .card.visited {
   box-shadow: 0 3px 10px 2px #444;
 }
+
+.next-button {
+  left: 20;
+}
+
+/*Profile Matches*/
+
+.profile-box {
+  display: flex;
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  margin: auto;
+  padding: 12px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 50%;
+  margin: 2em;
+}
+
+.view-button {
+  margin: auto;
+  display: inline;
+}
+
+.content {
+  display: block;
+}
+
+.view-profile {
+  background-color: #04414d;
+  color: white;
+  border-radius: 7px;
+  width: 12em;
+}
