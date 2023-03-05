@@ -11513,6 +11513,11 @@ footer.footer {
   margin-top: 10px;
 }
 
+.submitBtn a {
+  text-decoration: none;
+}
+
+
 .submitBtn:hover {
   background-color: #9867C5;
   transform: translateY(-2px);
