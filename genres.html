@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Genres</title>
+        <title>Genres choice</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -14,90 +14,83 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-    </head>
+    </head> 
     <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-light bg-light static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-            
-                <a class="btn btn-primary" href="signup.html">Sign Up</a>
-                <!-- <a class="btn btn-primary" href="about.html">About</a> -->
+       <!-- Navigation-->
+       <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#!">APP Name</a>
+        
+           
+            <!-- <a class="btn btn-primary" href="about.html">About</a> -->
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <!-- <li><a href="signup.html">SIGNUP</a></li>                     -->
+                </ul>
+               
 
             </div>
-            <div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="team.html">TEAM</a></li>
-                        <li><a href="contact.html">CONTACT US</a></li>
-                        <li><a href="signup.html">SIGNUP</a></li>                    
-                    </ul>
+            <a class="btn btn-primary" href="signup.html">Sign Up</a>
+
+        </div>
+        
+    </nav>
+    <div>
+        <form action="POST">
+            <fieldset>
+                <legend>Genre</legend>
+                <h2>What's your Favorite Music Genre(s)?</h2>
+                    <div>
+                        <input type="checkbox" name="check1" id="check1" value="Rap">
+                        <label for="check1">Rap</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="check2" id="check2" value="POP">
+                        <label for="check2">POP</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="check3" id="check3" value="Jazz">
+                        <label for="check3">Jazz</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="check4" id="check4" value="EDM">
+                        <label for="check4">EDM</label>
+                    </div>
     
-                </div>
-            </div>
-        </nav>
-
-        <main>
-
-            <h1 class="genre-title">Choose your top genres.</h1>
-
-            <div class="cards">
-                <div class="card">
-                    <img src="assets/img/edm.webp">    
-                        <div class="rectangle">
-                            <h3>EDM</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/pop.webp">    
-                        <div class="rectangle">
-                            <h3>Pop</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/indie.jpg.crdownload">    
-                        <div class="rectangle">
-                            <h3>Indie</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/country.jpg">    
-                        <div class="rectangle">
-                            <h3>Country</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/kpop.jpg">    
-                        <div class="rectangle">
-                            <h3>K-Pop</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/rock.jpg">    
-                        <div class="rectangle">
-                            <h3>Rock</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/jazz.jpg">    
-                        <div class="rectangle">
-                            <h3>Jazz</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/rap.png">    
-                        <div class="rectangle">
-                            <h3>Rap</h3>
-                        </div>
-                </div>
+    
+                    <h2>What is your Preffered Streaming Artist?</h2>
+                    <div>
+                        <input type="checkbox" name="favSelect" id="select1" value="Netflix">
+                        <label for="select1">Drake</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="favSelect" id="select2" value="Hulu">
+                        <label for="select2">Taylor Swift</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="favSelect" id="select3" value="Disney+">
+                        <label for="select3">SZa</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="favSelect" id="select4" value="HBO">
+                        <label for="select4">The Weeknd</label>
+                    </div>    
+    
+    
+            </fieldset>
+            <br>
 
 
 
-            </div>
 
-        </main>
+        </form>
+    </div>
+
+
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
     </body>
-</html>
