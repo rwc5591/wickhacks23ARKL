@@ -11593,6 +11593,7 @@ footer.footer {
 }
 
 .card {
+  background-color: white;
   box-shadow: 0 3px 10px 0 #aaa;
   cursor: pointer;
   height: 250px;
