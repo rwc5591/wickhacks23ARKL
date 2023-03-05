@@ -11530,6 +11530,15 @@ footer.footer {
   font-size: 16px;
 }
 
+.input-setup {
+    display: inline-block;
+    padding: 1% 0;
+    justify-content: center;
+    width: 90%;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
 .inputContainer > input {
   border-radius: 3px;
   width: 100%;
@@ -11554,6 +11563,20 @@ footer.footer {
   cursor: pointer;
   font-size: 16px;
   margin-top: 10px;
+}
+
+.ContinueBtn {
+  display: block;
+  margin: auto;
+  padding: 15px 15px;
+  width: 20%;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: -30px;
 }
 
 .submitBtn a {
@@ -11583,6 +11606,21 @@ footer.footer {
 
 .genre-title {
   margin: 37px;
+}
+
+.profile-title {
+  text-align: center;
+  margin: 100px;
+}
+
+.profile-form {
+  background-color: white;
+  margin: 0 auto;
+  width: 60vw;
+  height: 35em;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
 }
 
 .cards {
