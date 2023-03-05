@@ -2512,6 +2512,47 @@ textarea.form-control-lg {
   border-radius: 0.3rem;
 }
 
+.check_btn {
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  background-color: rgba(92, 92, 92, .4);
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: .5rem;
+}
+
+
+.card:hover {
+  transform: scale(1.02)
+}
+
+.card:active {
+  transform: scale(.97)
+}
+
+input[id="card_one"]:checked ~ label[for="card_one"] .card,
+input[id="card_two"]:checked ~ label[for="card_two"] .card,
+input[id="card_three"]:checked ~ label[for="card_three"] .card,
+input[id="card_four"]:checked ~ label[for="card_four"] .card,
+input[id="card_five"]:checked ~ label[for="card_five"] .card,
+input[id="card_six"]:checked ~ label[for="card_six"] .card,
+input[id="card_seven"]:checked ~ label[for="card_seven"] .card,
+input[id="card_eight"]:checked ~ label[for="card_eight"] .card{
+  border-color: rgb(0, 0, 0);
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.6);
+}
+
+input {
+  display: none;
+}
+
+.input {
+  display: block;
+}
+
 .form-check {
   display: block;
   min-height: 1.5rem;
@@ -4557,16 +4598,18 @@ textarea.form-control-lg {
 }
 
 .card {
-  position: relative;
+  margin: 0 1rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  align-items: center;
+  border-radius: .5rem;
+  position: relative;
+  cursor: pointer;
+  border: .5rem solid transparent;
+  transition: 200ms ease-in-out transform;
 }
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -11585,24 +11628,4 @@ footer.footer {
 }
 .card.visited {
   box-shadow: 0 3px 10px 2px #444;
-}
-
-@media (max-width: 1100px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-    width: calc(280px * 2);
-  }
-  .card {
-    margin: 0 auto 2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .cards {
-    display: block;
-    width: 100vw;
-  }
-  .card {
-    margin: 0 auto 2rem;
-  }
 }
