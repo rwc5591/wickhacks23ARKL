@@ -15,86 +15,88 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-light bg-light static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-
-                <a class="btn btn-primary" href="signup.html">Sign Up</a>
-                <!-- <a class="btn btn-primary" href="about.html">About</a> -->
-
-            </div>
-            <div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="team.html">TEAM</a></li>
-                        <li><a href="contact.html">CONTACT US</a></li>
-                        <li><a href="signup.html">SIGNUP</a></li>                    
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
+    <body style="background-image: url(assets/img/background.png);">
 
         <main>
-
-            <h1 class="genre-title">Choose your top genres.</h1>
-
+            <h1 class="genre-title" style = "color:white">Choose your top genres:</h1>
             <div class="cards">
-                <div class="card">
-                    <img src="assets/img/edm.webp">    
-                        <div class="rectangle">
-                            <h3>EDM</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/pop.webp">    
-                        <div class="rectangle">
-                            <h3>Pop</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/indie.jpg.crdownload">    
-                        <div class="rectangle">
-                            <h3>Indie</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/country.jpg">    
-                        <div class="rectangle">
-                            <h3>Country</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/kpop.jpg">    
-                        <div class="rectangle">
-                            <h3>K-Pop</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/rock.jpg">    
-                        <div class="rectangle">
-                            <h3>Rock</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/jazz.jpg">    
-                        <div class="rectangle">
-                            <h3>Jazz</h3>
-                        </div>
-                </div>
-                <div class="card">
-                    <img src="assets/img/rap.png">    
-                        <div class="rectangle">
-                            <h3>Rap</h3>
-                        </div>
-                </div>
+                <input type="checkbox" name="card" id="card_one">
+                <input type="checkbox" name="card" id="card_two">
+                <input type="checkbox" name="card" id="card_three">
+                <input type="checkbox" name="card" id="card_four">
+                <input type="checkbox" name="card" id="card_five">
+                <input type="checkbox" name="card" id="card_six">
+                <input type="checkbox" name="card" id="card_seven">
+                <input type="checkbox" name="card" id="card_eight">
 
+                <label for = "card_one">
+                    <div class="card" width =>
+                        <img src="assets/img/edm.webp">    
+                            <div class="rectangle">
+                                <h3>EDM</h3>
+                            </div>
+                    </div>
+                </label>
+                <label for = "card_two">
+                    <div class="card">
+                        <img src="assets/img/pop.webp">    
+                            <div class="rectangle">
+                                <h3>Pop</h3>
+                            </div>
+                    </div>
+                </label>
+                <label for = "card_three">
+                    <div class="card">
+                        <img src="assets/img/indie.jpg.crdownload">    
+                            <div class="rectangle">
+                                <h3>Indie</h3>
+                            </div>
+                    </div>
+                </label>
+                <label for = "card_four">
+                    <div class="card">
+                        <img src="assets/img/country.jpg">    
+                            <div class="rectangle">
+                                <h3>Country</h3>
+                            </div>
+                    </div>
+                </label>
+                <label for = "card_five">
+                    <div class="card">
+                        <img src="assets/img/kpop.jpg">    
+                            <div class="rectangle">
+                                <h3>K-Pop</h3>
+                            </div>
+                    </div>
+                </label>
+                <label for = "card_six">
+                    <div class="card">
+                        <img src="assets/img/rock.jpg">    
+                            <div class="rectangle">
+                                <h3>Rock</h3>
+                            </div>
+                    </div>
+                </label>
+                <label for = "card_seven">
+                    <div class="card">
+                        <img src="assets/img/jazz.jpg">    
+                            <div class="rectangle">
+                                <h3>Jazz</h3>
+                            </div>
+                    </div>
+                </label>
+                <label for = "card_eight">
+                    <div class="card">
+                        <img src="assets/img/rap.png">    
+                            <div class="rectangle">
+                                <h3>Rap</h3>
+                            </div>
+                    </div>
+                </label>
 
-
+            </div>
+            <div class="buttons">
+                <button type="next" class="btn btn-success btn-lg" formaction="genres.html">next</button>
             </div>
 
         </main>
