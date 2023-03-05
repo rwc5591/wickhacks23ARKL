@@ -1,8 +1,8 @@
-
+import "./WebApp.css"
 
 const CLIENT_ID = "ee213508d355434e8b709e084ca3a08f";
 const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize"
-const REDIRECT_URL = "http://127.0.0.1:5500/index.html"
+const REDIRECT_URL = "index.html"
 
 const getReturnedParamsFromSpotifyAuth = (hash) => {
     const stringAfterHashtag = hash.substring(1);
