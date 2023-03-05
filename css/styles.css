@@ -11668,3 +11668,68 @@ footer.footer {
 .card.visited {
   box-shadow: 0 3px 10px 2px #444;
 }
+
+.next-button {
+  left: 20;
+}
+
+/*Profile Matches*/
+
+.profiles {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 150px;
+}
+
+
+.profile-box {
+  display: flex;
+  max-width: 350px;
+  max-height: 500px;
+  width: 25%;
+  height:30%;
+  min-width: 250px;
+  min-height: 400px;
+  background-color: white;
+  margin: auto;
+  padding: 12px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 50%;
+  margin: 2em;
+}
+
+.view-button {
+  margin: auto;
+  display: inline;
+}
+
+.content {
+  display: block;
+}
+
+.view-profile {
+  background-color: #04414d;
+  color: white;
+  border-radius: 7px;
+  width: 12rem;
+}
+
+@media (max-width: 1000px) {
+  .profiles {
+    flex-direction: column;
+  }
+
+  .profile-box {
+    width: 50vw;
+    height: 70vw;
+    margin: 10px;
+  }
+}
